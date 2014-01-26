@@ -12,7 +12,7 @@ DC Energy
 ^
 ### Education
 
-Dopesauce University
+???
 : PhD, Statistics, (2014-Present)
 ^ 
 New York University
