@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## HEYO
+#### Please excuse all the incomprehensible content on the page as I put this site together.
 
 Statistics PhD candidate at _some university_.
 
