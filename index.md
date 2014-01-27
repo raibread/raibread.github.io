@@ -6,7 +6,7 @@ layout: default
 
 Statistics PhD candidate at _some university_.
 
-Here is some math: \\(\lim_{n\to\infty}f_n = f\\).
+Here is __some__ math: \\[\lim_{n\to\infty}f_n = f\\].
 
 What is this??[^src1]
 
