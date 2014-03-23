@@ -12,8 +12,8 @@ DC Energy
 ^
 ### Education
 
-???
-: PhD, Statistics, (2014-Present)
+The Wharton School, University of Pennsylvania
+: PhD, Statistics, (beginning fall 2014)
 ^ 
 New York University
 : M.S. coursework, Scientific Computing, (2012-2014)

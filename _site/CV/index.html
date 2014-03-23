@@ -54,6 +54,7 @@
         clear: both;
         padding-bottom: 5px;
       }
+      
 
     </style>
     
@@ -103,8 +104,8 @@
 <h3 id="education">Education</h3>
 
 <dl>
-  <dt>???</dt>
-  <dd>PhD, Statistics, (2014-Present)</dd>
+  <dt>The Wharton School, University of Pennsylvania</dt>
+  <dd>PhD, Statistics, (beginning fall 2014)</dd>
 </dl>
 <dl>
   <dt>New York University</dt>
@@ -123,7 +124,7 @@
       <h3>Who, me?</h3>
 <div id="clearfix">
 <img src="/assets/img/me.png" class="img-circle" id="thumb">
-<p>I hope to be a first year Statistics PhD candidate at [some university]. I am interested in high-dimensional and large-scale data problems being tackled by both statisticians and machine learners. e-mail, fork, tweet, link-in(?) me with the links below.</p>
+<p>Starting this fall (2014), I will be a PhD student at the Wharton Department of Statistics. I am interested in high-dimensional and large-scale data problems being tackled by both statisticians and machine learners and hope that one day I'll be a real life statistician. e-mail, fork, tweet, link-in(?) me with the links below.</p>
 </div>
 
 <div id="footer">
@@ -161,16 +162,16 @@
       return this.href == url;
     }).attr('href','#');
     
-    $(window).on('scroll resize', function(e) { 
-        if ($(this).scrollTop() < 200 || $(this).width() < 992) { 
+    $(window).on('scroll resize', function() { 
+        if ($(this).scrollTop() < 200 || $(this).width() < 992) {
             $('#sidebar').css({'position': 'relative','top': '0px','width': '100%'});
+            
             
         } 
         else {
             $('#sidebar').css({'position': 'fixed','top': '80px','width': '293px'});
             
         }
-        
     });
     </script>
     <!--$(window).resize( function(e) {

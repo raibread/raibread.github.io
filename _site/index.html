@@ -54,6 +54,7 @@
         clear: both;
         padding-bottom: 5px;
       }
+      
 
     </style>
     
@@ -90,59 +91,12 @@
 <div class="row">
   <div class="col-md-8">
     <div id="main">
-    <h3 id="please-excuse-all-the-incomprehensible-content-on-the-page-as-i-put-this-site-together">Please excuse all the incomprehensible content on the page as I put this site together.</h3>
-
-<p>Statistics PhD candidate at <em>some university</em>.</p>
-
-<p>Here is <strong>some</strong> math: \[\lim_{n\to\infty}f_n = f\].</p>
-
-<p>What is this??<sup id="fnref:src1"><a href="#fn:src1" class="footnote">1</a></sup></p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\
-tum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendreri\
-t quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, int\
-erdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius n\
-ibh eu diam tempor rhoncus.</p>
-
-<h1 id="pellentesque-sollicitudin">Pellentesque sollicitudin</h1>
-
-<h2 id="a-subsection">A subsection</h2>
-<p>EErat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum \
-urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, co\
-mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
- nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper. </p>
-
-<h3 id="a-subsubsection">A subsubsection</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\
-tum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendreri\
-t quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, int\
-erdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius n\
-ibh eu diam tempor rhoncus.</p>
-
-<h2 id="pellentesque-sollicitudin-1">Pellentesque sollicitudin</h2>
-
-<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum \
-urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, co\
-mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
- nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper. </p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elemen\
-tum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendreri\
-t quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, int\
-erdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius n\
-ibh eu diam tempor rhoncus.</p>
-
-<h2 id="pellentesque-sollicitudin-2">Pellentesque sollicitudin</h2>
-
-<p>Erat pellentesque ornare gravida, ipsum est luctus neque, eget condimentum \
-urna arcu sit amet felis. Duis nisl augue, scelerisque quis iaculis non, co\
-mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
- nostra, per inceptos himenaeos. Etiam tincidunt porttitor nibh at semper. </p>
+    <h3 id="please-excuse-all-the-incomprehensible-content-on-the-page-as-i-put-this-site-together-src1">Please excuse all the incomprehensible content on the page as I put this site together. <sup id="fnref:src1"><a href="#fn:src1" class="footnote">1</a></sup></h3>
 
 <div class="footnotes">
   <ol>
     <li id="fn:src1">
-      <p>This is stupid. derrrrr. <a href="#fnref:src1" class="reversefootnote">&#8617;</a></p>
+      <p>Content coming soon! <a href="#fnref:src1" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>
@@ -154,7 +108,7 @@ mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
       <h3>Who, me?</h3>
 <div id="clearfix">
 <img src="/assets/img/me.png" class="img-circle" id="thumb">
-<p>I hope to be a first year Statistics PhD candidate at [some university]. I am interested in high-dimensional and large-scale data problems being tackled by both statisticians and machine learners. e-mail, fork, tweet, link-in(?) me with the links below.</p>
+<p>Starting this fall (2014), I will be a PhD student at the Wharton Department of Statistics. I am interested in high-dimensional and large-scale data problems being tackled by both statisticians and machine learners and hope that one day I'll be a real life statistician. e-mail, fork, tweet, link-in(?) me with the links below.</p>
 </div>
 
 <div id="footer">
@@ -192,16 +146,16 @@ mmodo a tellus. Class aptent taciti sociosqu ad litora torquent per conubia\
       return this.href == url;
     }).attr('href','#');
     
-    $(window).on('scroll resize', function(e) { 
-        if ($(this).scrollTop() < 200 || $(this).width() < 992) { 
+    $(window).on('scroll resize', function() { 
+        if ($(this).scrollTop() < 200 || $(this).width() < 992) {
             $('#sidebar').css({'position': 'relative','top': '0px','width': '100%'});
+            
             
         } 
         else {
             $('#sidebar').css({'position': 'fixed','top': '80px','width': '293px'});
             
         }
-        
     });
     </script>
     <!--$(window).resize( function(e) {

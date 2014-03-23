@@ -20,16 +20,16 @@
       return this.href == url;
     }).attr('href','#');
     
-    $(window).on('scroll resize', function(e) { 
-        if ($(this).scrollTop() < 200 || $(this).width() < 992) { 
+    $(window).on('scroll resize', function() { 
+        if ($(this).scrollTop() < 200 || $(this).width() < 992) {
             $('#sidebar').css({'position': 'relative','top': '0px','width': '100%'});
+            
             
         } 
         else {
             $('#sidebar').css({'position': 'fixed','top': '80px','width': '293px'});
             
         }
-        
     });
     </script>
     <!--$(window).resize( function(e) {
